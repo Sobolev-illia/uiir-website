@@ -1,0 +1,2 @@
+.reveal { opacity: 0; transform: translateY(26px); transition: opacity .75s cubic-bezier(.2,.7,.2,1) var(--delay), transform .75s cubic-bezier(.2,.7,.2,1) var(--delay); }
+.visible { opacity: 1; transform: none; }

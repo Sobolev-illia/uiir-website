@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#e8e2d8"/>
+<rect x="42" y="42" width="1196" height="676" fill="none" stroke="#c9bda8"/>
+<path d="M90 610 C210 280 410 235 615 475 C780 670 955 650 1160 275" fill="none" stroke="#302f2d" stroke-width="3"/>
+<path d="M130 570 C270 340 420 340 580 500 C760 680 930 570 1115 340" fill="none" stroke="#b69a68" stroke-width="2"/>
+<g stroke="#9a958b" opacity=".45"><path d="M90 660H1190"/><path d="M90 680H1190"/><path d="M180 80V690"/><path d="M400 80V690"/><path d="M620 80V690"/><path d="M840 80V690"/><path d="M1060 80V690"/></g>
+<text x="82" y="105" font-family="Arial, sans-serif" font-size="18" letter-spacing="5" fill="#777269">PROJECT IMAGE PLACEHOLDER 04</text>
+</svg>

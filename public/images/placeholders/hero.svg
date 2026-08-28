@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1100">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5eee4"/><stop offset=".56" stop-color="#d9c7ad"/><stop offset="1" stop-color="#8e7659"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ebe8e0" stop-opacity=".86"/><stop offset="1" stop-color="#332f2a" stop-opacity=".8"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1100" fill="url(#sky)"/>
+  <path d="M930 920C1125 885 1265 751 1368 550c82-159 181-261 352-308 74-20 139-25 200-17v875H868c-2-56 16-121 62-180z" fill="#ebe8e0"/>
+  <path d="M1006 908c177-64 286-177 366-337 74-148 157-216 298-248 89-20 174-16 250-2v500c-199-54-401 1-541 115-90 74-205 106-373 97z" fill="url(#glass)"/>
+  <path d="M1042 909c180-66 289-184 374-350 60-117 143-176 264-205 81-20 158-19 240-3" fill="none" stroke="#b69a68" stroke-width="4" opacity=".65"/>
+  <g stroke="#f6f3ed" stroke-width="3" opacity=".7">
+    <path d="M1450 455l430 326M1388 560l475 296M1328 670l440 255M1510 397l-120 521M1621 369l-105 493M1735 355l-87 464"/>
+  </g>
+  <path d="M0 940c230-88 418-112 626-62 144 35 250 107 369 123 157 22 308-47 438-69 181-31 337-7 487 54v114H0z" fill="#2e3029" opacity=".34"/>
+  <circle cx="260" cy="792" r="78" fill="#3e4434" opacity=".66"/><circle cx="350" cy="822" r="52" fill="#3e4434" opacity=".58"/>
+  <text x="80" y="1020" fill="#fff" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="6">HERO MEDIA PLACEHOLDER · REPLACE WITH IMAGE OR VIDEO</text>
+</svg>

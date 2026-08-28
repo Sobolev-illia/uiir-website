@@ -1,0 +1,107 @@
+.listSection {
+    padding: clamp(60px, 8vw, 120px) 0;
+}
+.list {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    border-top: 1px solid var(--color-line-strong);
+}
+.item {
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr;
+    gap: clamp(22px, 4vw, 70px);
+    padding: clamp(34px, 5vw, 70px) 0;
+    border-bottom: 1px solid var(--color-line);
+}
+.number {
+    color: var(--color-accent-strong);
+    font: 600 10px/1 var(--font-sans);
+    letter-spacing: 0.12em;
+    padding-top: 7px;
+}
+.titleCol h2 {
+    margin: 0;
+    max-width: 590px;
+    font: 500 clamp(30px, 4vw, 60px)/0.96 var(--font-title);
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+}
+.titleCol p {
+    margin: 22px 0 0;
+    max-width: 570px;
+    color: var(--color-muted);
+}
+.points h3 {
+    margin: 7px 0 18px;
+    font: 600 16px var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    color: var(--color-accent-strong);
+}
+.points ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.points li {
+    position: relative;
+    padding: 10px 0 10px 22px;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-ink-soft);
+}
+.points li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-strong);
+}
+.cta {
+    padding: clamp(70px, 9vw, 140px) 0;
+    background: var(--color-ink);
+    color: #fff;
+}
+.cta > div {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+    align-items: end;
+}
+.cta h2 {
+    margin: 0;
+    max-width: 900px;
+    font: 400 clamp(38px, 5.6vw, 84px)/0.94 var(--font-title);
+    text-transform: uppercase;
+    letter-spacing: -0.045em;
+}
+.cta a {
+    display: flex;
+    gap: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 16px 18px;
+    font: 600 14px var(--font-title);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.cta a span {
+    transition: transform var(--transition-fast);
+}
+.cta a:hover span {
+    transform: translate(3px, -3px);
+}
+@media (max-width: 800px) {
+    .item {
+        grid-template-columns: 45px 1fr;
+    }
+    .points {
+        grid-column: 2;
+    }
+    .cta > div {
+        grid-template-columns: 1fr;
+        align-items: start;
+    }
+    .cta a {
+        width: fit-content;
+    }
+}

@@ -1,0 +1,8 @@
+.card { border-top: 1px solid var(--color-line-strong); padding-top: 14px; }
+.photo { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--color-surface-strong); }
+.photo img { object-fit: cover; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+.card:hover .photo img { transform: scale(1.025); }
+.body { padding: 18px 2px 0; }
+.position { margin: 0 0 8px; color: var(--color-accent-strong); font: 600 10px/1.2 var(--font-sans); letter-spacing: .12em; text-transform: uppercase; }
+.body h3 { margin: 0; font: 500 26px/1 var(--font-sans); letter-spacing: -.03em; text-transform: uppercase; }
+.description { margin: 12px 0 0; color: var(--color-muted); font-size: 13px; }

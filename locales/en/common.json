@@ -1,0 +1,366 @@
+{
+  "brand": {
+    "short": "UIIR",
+    "name": "Ukrainian International Institute of Restoration",
+    "eyebrow": "Ukraine · international expert platform"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About UIIR",
+    "activities": "Expertise",
+    "projects": "Projects",
+    "join": "Join UIIR",
+    "documents": "Documents",
+    "contact": "Contacts",
+    "proposal": "Submit a proposal",
+    "menu": "Menu",
+    "close": "Close menu"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewProjects": "View projects",
+    "allActivities": "All expertise",
+    "contactUs": "Contact us",
+    "backToProjects": "Back to projects",
+    "openImage": "Open image",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "closeGallery": "Close gallery",
+    "image": "Image",
+    "of": "of",
+    "filePending": "File will be added",
+    "details": "Details",
+    "gallery": "Gallery",
+    "skipToContent": "Skip to content"
+  },
+  "home": {
+    "heroKicker": "Professional expert institution",
+    "heroTitleLines": [
+      "TERRITORIES.",
+      "INFRASTRUCTURE.",
+      "DEVELOPMENT."
+    ],
+    "heroText": "The Ukrainian International Institute of Restoration (UIIR) is a professional expert institution established to coordinate scientific, architectural, engineering and analytical capacity in territorial development, infrastructure planning, community transformation and the delivery of integrated project solutions.",
+    "aboutTitle": "Ukrainian International Institute of Restoration",
+    "paragraphs": [
+      "The Ukrainian International Institute of Restoration (UIIR) is a professional expert institution established to coordinate scientific, architectural, engineering and analytical capacity in territorial development, infrastructure planning, community transformation and the delivery of integrated project solutions.",
+      "The Institute brings together researchers, highly qualified practitioners, representatives of local self-government, subject-matter experts and partners to shape contemporary solutions in architecture, urban planning, community development, strategic planning and infrastructure development.",
+      "UIIR supports territorial development, infrastructure modernization, strategic planning, the preparation of project solutions and interdisciplinary initiatives in cooperation with communities, institutions and international partners."
+    ],
+    "foundedLabel": "Established",
+    "foundedValue": "2023",
+    "centersLabel": "Specialized centers",
+    "centersValue": "10",
+    "activityLabel": "Areas of activity",
+    "activityValue": "8",
+    "missionKicker": "Mission",
+    "missionQuote": "To consolidate scientific, professional and expert capacity to shape modern solutions for territorial development, strategic planning, infrastructure transformation and integrated community development projects.",
+    "featuredActivities": "Core areas of expertise",
+    "featuredProjects": "Projects",
+    "ctaTitle": "Professional collaboration for long-term solutions",
+    "ctaText": "We welcome partnership, expert and project collaboration in territorial and infrastructure development."
+  },
+  "about": {
+    "title": "About UIIR",
+    "intro": [
+      "The Ukrainian International Institute of Restoration was established in 2023 as an extraterritorial, non-profit professional organization coordinating expert, scientific and project support in territorial development, spatial planning, infrastructure transformation and the restoration of Ukraine.",
+      "UIIR is a non-profit organization under the current legislation of Ukraine and does not aim to generate profit.",
+      "The Institute operates as a platform for professional cooperation between the scientific community, practitioners, communities, local self-government bodies, specialized institutions and international partners."
+    ],
+    "centersIntro": "UIIR includes the following specialized centers:",
+    "centers": [
+      "Center for Architectural and Spatial Design",
+      "Urban Planning Center",
+      "Center for Architectural Structures",
+      "Center for Community and Regional Development",
+      "Scientific and Methodological Center",
+      "Center for Military Architecture and Engineering",
+      "Center for Energy Transformation and Decarbonization",
+      "Center for Strategic and Economic Planning and Land Management",
+      "Center for General Education Projects",
+      "Center for Analytics, Management and Project Support"
+    ],
+    "foundersTitle": "Founders",
+    "leadershipTitle": "Leadership",
+    "teamPlaceholder": {
+      "name": "Full name",
+      "position": "Position",
+      "description": "A short professional profile will be added together with the team member’s photograph."
+    },
+    "orgTitle": "Organizational structure",
+    "orgIntro": "The highest governing body of UIIR is the General Meeting of authorized representatives of local self-government bodies — members of the Association.",
+    "orgPowersIntro": "The powers of the General Meeting include:",
+    "orgPowers": [
+      "forming the UIIR Board",
+      "electing the President of UIIR",
+      "electing the First Vice President — Executive Director of UIIR",
+      "electing Vice Presidents of UIIR",
+      "determining the Institute’s strategic areas of activity"
+    ],
+    "orgManagement": "Between meetings of the General Meeting, UIIR is managed by the UIIR Board, which makes decisions on all matters of the Institute’s statutory activity that do not fall within the exclusive competence of the General Meeting.",
+    "principlesIntro": "UIIR is based on the principles of:",
+    "principles": [
+      "open membership",
+      "legality",
+      "voluntariness",
+      "equality",
+      "self-governance",
+      "independence in determining areas of activity",
+      "openness",
+      "public accountability",
+      "democratic governance"
+    ],
+    "missionTitle": "Mission",
+    "mission": [
+      "To consolidate scientific, professional and expert capacity to shape modern solutions for territorial development, strategic planning, infrastructure transformation and integrated community development projects.",
+      "The Ukrainian International Institute of Restoration brings together researchers, architects, engineers, analysts, representatives of local self-government and international partners to provide professional support to territorial communities, prepare strategic solutions and deliver projects focused on modernization, development and transformation across Ukraine.",
+      "UIIR creates an environment for interdisciplinary cooperation where expertise, science, project-based methods and practical experience come together to build long-term solutions for territorial and infrastructure development."
+    ],
+    "visionTitle": "Vision",
+    "vision": [
+      {
+        "title": "Consolidating professional capacity",
+        "paragraphs": [
+          "UIIR is developing as a professional expert platform that enables cooperation between communities, local self-government bodies, specialized institutions, the scientific community, international partners and investors for integrated territorial development projects.",
+          "The Institute is building a professional support system for communities in strategic planning, spatial development, infrastructure modernization, architecture and engineering."
+        ]
+      },
+      {
+        "title": "Strategic planning and territorial development",
+        "paragraphs": [
+          "UIIR is preparing territorial development and transformation projects today, creating a foundation for the long-term implementation of strategic initiatives in the future.",
+          "The Institute supports the development of:"
+        ],
+        "items": [
+          "territorial development strategies",
+          "integrated community development concepts",
+          "master plans",
+          "spatial and infrastructure solutions",
+          "analytical and strategic documents",
+          "models for attracting partnership and investment support"
+        ]
+      },
+      {
+        "title": "Effective partnerships",
+        "paragraphs": [
+          "One of UIIR’s core principles is to build an effective partnership model between public institutions, communities, the expert environment, international partners and the professional community.",
+          "The Institute fosters an open environment for coordination, professional dialogue and interdisciplinary project delivery."
+        ]
+      },
+      {
+        "title": "Educational and scientific development",
+        "paragraphs": [
+          "UIIR supports the development of modern educational and scientific infrastructure as a foundation for long-term territorial development.",
+          "The Institute supports:"
+        ],
+        "items": [
+          "modern educational approaches",
+          "STEM education",
+          "modernization of educational institutions",
+          "scientific and methodological project support",
+          "professional education in architecture, engineering and infrastructure development"
+        ]
+      }
+    ]
+  },
+  "activities": {
+    "title": "Areas of activity",
+    "intro": "UIIR’s interdisciplinary expertise combines design, engineering, planning, management, education and research.",
+    "items": [
+      {
+        "title": "General design coordination",
+        "description": "Integrated management of design processes and coordination of project solutions for social, public, educational and infrastructure facilities.",
+        "label": "Core areas:",
+        "points": [
+          "architectural design",
+          "urban design",
+          "coordination of project solutions",
+          "territorial master plans",
+          "conceptual and spatial solutions",
+          "project documentation"
+        ]
+      },
+      {
+        "title": "Architecture and urbanism",
+        "description": "Development of contemporary architectural and urban solutions for territorial and infrastructure development.",
+        "label": "Core areas:",
+        "points": [
+          "territorial development concepts",
+          "architectural concepts",
+          "public spaces",
+          "spatial planning",
+          "urban solutions",
+          "project visualization"
+        ]
+      },
+      {
+        "title": "Engineering and technical solutions",
+        "description": "Development and integration of engineering solutions within infrastructure and territorial projects.",
+        "label": "Core areas:",
+        "points": [
+          "engineering systems",
+          "technical support",
+          "infrastructure solutions",
+          "engineering analysis",
+          "technical coordination",
+          "engineering integration"
+        ]
+      },
+      {
+        "title": "Infrastructure development",
+        "description": "Preparation of integrated solutions for the modernization and development of social, educational, public and engineering infrastructure.",
+        "label": "Core areas:",
+        "points": [
+          "social infrastructure",
+          "educational facilities",
+          "public facilities",
+          "infrastructure concepts",
+          "territorial modernization",
+          "development of the infrastructure environment"
+        ]
+      },
+      {
+        "title": "Strategic and spatial planning",
+        "description": "Preparation of strategic, analytical and spatial solutions for the development of communities and territories.",
+        "label": "Core areas:",
+        "points": [
+          "strategic planning",
+          "integrated development concepts",
+          "spatial strategies",
+          "territorial analytics",
+          "socio-economic analysis",
+          "territorial development models"
+        ]
+      },
+      {
+        "title": "Energy transformation and decarbonization",
+        "description": "Development of solutions for energy efficiency, infrastructure modernization and sustainable territorial development.",
+        "label": "Core areas:",
+        "points": [
+          "energy-efficient solutions",
+          "infrastructure modernization",
+          "decarbonization",
+          "integration of modern energy systems",
+          "consulting support"
+        ]
+      },
+      {
+        "title": "Project management and support",
+        "description": "Organizational, expert and analytical support for territorial and infrastructure development projects.",
+        "label": "Core areas:",
+        "points": [
+          "project management",
+          "process coordination",
+          "expert support",
+          "analytical support",
+          "interdisciplinary cooperation",
+          "consulting support"
+        ]
+      },
+      {
+        "title": "Educational and scientific-methodological projects",
+        "description": "Development of educational and scientific initiatives in architecture, engineering and infrastructure development.",
+        "label": "Core areas:",
+        "points": [
+          "STEM education",
+          "educational infrastructure projects",
+          "scientific and methodological support",
+          "professional education programs",
+          "expert and analytical support"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "UIIR prepares and supports projects in the areas of:",
+    "areas": [
+      "territorial development",
+      "community development",
+      "architectural and urban design",
+      "social and educational infrastructure development",
+      "strategic planning",
+      "engineering and infrastructure solutions",
+      "territorial and infrastructure modernization"
+    ],
+    "outro": "The Institute contributes to territorial development concepts, project solutions, analytical support and interdisciplinary project coordination.",
+    "sampleLabel": "Project structure example"
+  },
+  "join": {
+    "title": "Join UIIR",
+    "paragraphs": [
+      "UIIR brings together representatives of the professional, scientific and expert communities working in architecture, engineering, territorial development, analytics and strategic planning.",
+      "Membership in the Institute provides participation in a professional environment, expert initiatives and interdisciplinary cooperation in territorial development and infrastructure transformation."
+    ],
+    "cta": "Submit a membership request"
+  },
+  "documents": {
+    "title": "Documents",
+    "items": [
+      "UIIR Charter",
+      "Organizational structure",
+      "Official documents",
+      "Presentation materials"
+    ]
+  },
+  "contact": {
+    "title": "Contacts",
+    "organization": "Ukrainian International Institute of Restoration",
+    "intro": "For partnership, expert and project cooperation:",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "socialLabel": "Social media",
+    "emailValue": "[email]",
+    "phoneValue": "[number]",
+    "socialValue": "[link]",
+    "formTitle": "Submit a proposal",
+    "formText": "Describe your request and the UIIR team can route it to the relevant specialist.",
+    "fields": {
+      "name": "Full name",
+      "organization": "Organization",
+      "email": "Email",
+      "phone": "Phone",
+      "topic": "Subject",
+      "message": "Message",
+      "consent": "I agree to the processing of the submitted data for the purpose of responding to this request.",
+      "website": "Website"
+    },
+    "topics": {
+      "general": "General inquiry",
+      "proposal": "Project proposal",
+      "partnership": "Partnership",
+      "membership": "Join UIIR"
+    },
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you. The request passed validation. Connect your delivery service in the API route to send messages.",
+    "errors": {
+      "name": "Enter a name (at least 2 characters).",
+      "email": "Enter a valid email address.",
+      "message": "The message must be at least 20 characters long.",
+      "consent": "Consent to data processing is required.",
+      "generic": "The form could not be submitted. Please try again."
+    }
+  },
+  "footer": {
+    "statement": "A professional expert platform for territorial, infrastructure and community development.",
+    "rights": "All rights reserved.",
+    "location": "Kyiv · Ukraine"
+  },
+  "seo": {
+    "homeTitle": "Ukrainian International Institute of Restoration",
+    "homeDescription": "UIIR is a professional expert institution in territorial development, infrastructure planning, architecture, engineering and strategic development.",
+    "aboutTitle": "About UIIR",
+    "aboutDescription": "Mission, vision, organizational structure, specialized centers, founders and leadership of the Ukrainian International Institute of Restoration.",
+    "activitiesTitle": "Areas of activity",
+    "activitiesDescription": "General design, architecture, urbanism, engineering, infrastructure development, strategic planning and educational projects at UIIR.",
+    "projectsTitle": "Projects",
+    "projectsDescription": "UIIR projects in territorial and community development, architecture, urban planning, engineering and infrastructure modernization.",
+    "joinTitle": "Join UIIR",
+    "joinDescription": "Professional and expert participation in the Ukrainian International Institute of Restoration.",
+    "documentsTitle": "Documents",
+    "documentsDescription": "UIIR Charter, organizational structure, official documents and presentation materials.",
+    "contactTitle": "Contacts",
+    "contactDescription": "Contact details for the Ukrainian International Institute of Restoration and a form for partnership, expert and project inquiries."
+  }
+}

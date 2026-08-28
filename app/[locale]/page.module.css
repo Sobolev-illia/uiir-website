@@ -1,0 +1,261 @@
+.stats {
+    border-bottom: 1px solid var(--color-line);
+    background: var(--color-surface);
+}
+.statsInner {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.stat,
+.statStatement {
+    min-height: 170px;
+    padding: 32px 30px;
+    border-right: 1px solid var(--color-line);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stat:first-child {
+    border-left: 1px solid var(--color-line);
+}
+.stat strong {
+    font: 400 clamp(44px, 5vw, 72px)/1 var(--font-sans);
+    letter-spacing: -0.045em;
+}
+.stat span,
+.statStatement span {
+    max-width: 160px;
+    font: 600 10px/1.45 var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    color: var(--color-muted);
+}
+.statStatement {
+    border-right: 1px solid var(--color-line);
+    justify-content: flex-end;
+}
+.statStatement span {
+    color: var(--color-accent-strong);
+    max-width: 220px;
+}
+.aboutPreview {
+    padding: clamp(80px, 10vw, 160px) 0;
+}
+.aboutGrid {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(50px, 8vw, 130px);
+}
+.aboutGrid h2 {
+    margin: 18px 0 0;
+    max-width: 620px;
+    font: 500 clamp(44px, 6vw, 92px)/0.92 var(--font-title);
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+}
+.aboutCopy p {
+    margin: 0 0 22px;
+    max-width: 650px;
+    color: var(--color-ink-soft);
+}
+.aboutCopy a {
+    display: inline-block;
+    margin-top: 12px;
+}
+.missionBand {
+    background: var(--color-ink);
+    color: var(--color-white);
+    padding: clamp(80px, 10vw, 160px) 0;
+}
+.missionInner {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 0.32fr 1fr;
+    gap: 60px;
+}
+.missionKicker {
+    color: var(--color-accent);
+    font: 600 11px/1 var(--font-sans);
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+.missionInner blockquote {
+    margin: 0;
+    max-width: 1100px;
+    font: 400 clamp(30px, 4.4vw, 68px)/1.04 var(--font-sans);
+    letter-spacing: -0.038em;
+}
+.activities,
+.projects {
+    padding: clamp(80px, 9vw, 150px) 0;
+}
+.projects {
+    background: var(--color-surface);
+}
+.sectionInner {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+}
+.activityGrid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.projectGrid {
+    margin-top: 34px;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 50px 20px;
+}
+
+/* First project = full width */
+.projectGrid > :first-child {
+    grid-column: 1 / -1;
+}
+
+/* Prevent cards from overflowing grid columns */
+.projectGrid > * {
+    min-width: 0;
+}
+
+.projectsFooter {
+    margin-top: clamp(48px, 6vw, 80px);
+
+    display: flex;
+    justify-content: center;
+}
+
+.allProjectsButton {
+    min-width: min(100%, 360px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding: 18px 20px;
+
+    border: 1px solid var(--color-ink);
+
+    background: var(--color-ink);
+    color: var(--color-white);
+
+    font: 600 14px var(--font-title);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    transition:
+        background var(--transition-fast),
+        color var(--transition-fast),
+        transform var(--transition-fast);
+}
+
+.allProjectsButton:hover {
+    background: transparent;
+    color: var(--color-ink);
+}
+
+.allProjectsArrow {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+
+    transition: transform var(--transition-fast);
+}
+
+.allProjectsButton:hover .allProjectsArrow {
+    transform: translate(4px, -4px);
+}
+
+.ctaBand {
+    padding: clamp(72px, 9vw, 150px) 0;
+    background: linear-gradient(110deg, var(--color-surface-strong), var(--color-bg));
+}
+.ctaInner {
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 0.55fr;
+    gap: clamp(40px, 8vw, 130px);
+    align-items: end;
+}
+.ctaInner h2 {
+    margin: 0;
+    max-width: 980px;
+    font: 500 clamp(42px, 6vw, 92px)/0.92 var(--font-title);
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+}
+.ctaCopy p {
+    margin: 0 0 28px;
+    max-width: 500px;
+    color: var(--color-muted);
+}
+.ctaButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 17px 18px;
+    border: 1px solid var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-white);
+    font: 600 14px var(--font-title);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition:
+        background var(--transition-fast),
+        color var(--transition-fast);
+}
+.ctaButton b {
+    font-weight: 400;
+    transition: transform var(--transition-fast);
+}
+a:hover .ctaButton {
+    background: transparent;
+    color: var(--color-ink);
+}
+a:hover .ctaButton b {
+    transform: translate(3px, -3px);
+}
+@media (max-width: 860px) {
+    .statsInner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stat:nth-child(3) {
+        border-left: 1px solid var(--color-line);
+    }
+    .aboutGrid,
+    .missionInner,
+    .ctaInner {
+        grid-template-columns: 1fr;
+    }
+    .activityGrid {
+        grid-template-columns: 1fr;
+    }
+    .projectGrid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .projectGrid > :first-child {
+        grid-column: auto;
+    }
+}
+@media (max-width: 520px) {
+    .statsInner {
+        width: 100%;
+    }
+    .stat,
+    .statStatement {
+        min-height: 140px;
+        padding: 24px 20px;
+    }
+}

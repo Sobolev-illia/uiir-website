@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 22px;
+    padding: 28px 26px;
+    border: 1px solid var(--color-line);
+    background: color-mix(in srgb, var(--color-surface) 78%, transparent);
+    transition:
+        transform var(--transition),
+        background var(--transition),
+        border-color var(--transition);
+}
+.card:hover {
+    transform: translateY(-5px);
+    background: var(--color-surface);
+    border-color: var(--color-line-strong);
+}
+.number {
+    color: var(--color-accent-strong);
+    font: 600 10px/1 var(--font-body);
+    letter-spacing: 0.12em;
+}
+.card h3 {
+    margin: 0;
+    max-width: 360px;
+    font: 500 clamp(22px, 2vw, 31px)/1.02 var(--font-title);
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+.card p {
+    margin: 22px 0 0;
+    max-width: 480px;
+    color: var(--color-muted);
+    font-size: 14px;
+}
+.arrow {
+    position: absolute;
+    right: 22px;
+    bottom: 18px;
+    color: var(--color-accent-strong);
+    transition: transform var(--transition-fast);
+}
+.card:hover .arrow {
+    transform: translate(3px, -3px);
+}
+.compact {
+    min-height: 210px;
+}

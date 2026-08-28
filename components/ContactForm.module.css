@@ -1,0 +1,113 @@
+.form {
+    display: grid;
+    gap: 20px;
+}
+.twoCol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.field {
+    display: grid;
+    gap: 8px;
+}
+.field > span {
+    font: 600 12px/1 var(--font-title);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-muted);
+}
+.field input,
+.field textarea,
+.field select {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--color-line-strong);
+    border-radius: 0;
+    background: transparent;
+    color: var(--color-ink);
+    padding: 12px 0 13px;
+    outline: none;
+    transition: border-color var(--transition-fast);
+}
+.field textarea {
+    resize: vertical;
+    min-height: 160px;
+}
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+    border-color: var(--color-accent-strong);
+}
+.field small,
+.error {
+    color: #8b2f25;
+    font-size: 12px;
+}
+.honeypot {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    pointer-events: none;
+}
+.consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: var(--color-muted);
+    font-size: 13px;
+}
+.consent input {
+    margin-top: 3px;
+    accent-color: var(--color-accent-strong);
+}
+.footerRow {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: center;
+    margin-top: 10px;
+}
+.submit {
+    min-width: 190px;
+    border: 1px solid var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-white);
+    padding: 16px 18px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font: 600 14px var(--font-title);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition:
+        background var(--transition-fast),
+        color var(--transition-fast);
+}
+.submit:hover:not(:disabled) {
+    background: transparent;
+    color: var(--color-ink);
+}
+.submit:disabled {
+    opacity: 0.55;
+    cursor: wait;
+}
+.status p {
+    margin: 0;
+}
+.success {
+    color: #496341;
+    font-size: 13px;
+}
+@media (max-width: 680px) {
+    .twoCol {
+        grid-template-columns: 1fr;
+    }
+    .footerRow {
+        grid-template-columns: 1fr;
+    }
+    .submit {
+        width: 100%;
+    }
+}
