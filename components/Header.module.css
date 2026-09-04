@@ -33,7 +33,7 @@
 .navLink {
     position: relative;
     font-family: var(--font-title);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.085em;
     text-transform: uppercase;
@@ -93,76 +93,201 @@
 .proposal:hover span {
     transform: translate(2px, -2px);
 }
+
 .menuButton {
+    position: relative;
+
     display: none;
+
     width: 42px;
     height: 42px;
+
     border: 1px solid var(--color-line-strong);
+
     background: transparent;
+
     padding: 0 11px;
+
     cursor: pointer;
+
+    z-index: 5;
 }
+
 .menuButton span {
-    display: block;
-    width: 100%;
+    position: absolute;
+
+    left: 11px;
+
+    width: calc(100% - 22px);
     height: 1px;
+
     background: var(--color-ink);
-    margin: 5px 0;
-}
-.mobilePanel {
-    position: fixed;
-    inset: var(--header-height) 0 0;
-    background: var(--color-bg);
-    transform: translateY(-110%);
-    opacity: 0;
-    pointer-events: none;
+
     transition:
-        transform var(--transition),
-        opacity var(--transition);
+        transform var(--transition-fast),
+        top var(--transition-fast);
+}
+
+.menuButton span:first-child {
+    top: 16px;
+}
+
+.menuButton span:last-child {
+    top: 24px;
+}
+
+/* Turn hamburger into X */
+.menuButtonOpen span:first-child {
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+.menuButtonOpen span:last-child {
+    top: 20px;
+    transform: rotate(-45deg);
+}
+
+.mobilePanel {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+    height: calc(100dvh - var(--header-height));
+
+    z-index: 99;
+
+    /*
+     * Solid fallback first.
+     */
+    background: var(--color-bg);
+
+    /*
+     * Slightly transparent modern background.
+     * Increase 94% to 98% if you want it more opaque.
+     */
+    background: color-mix(in srgb, var(--color-bg) 94%, transparent);
+
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+
     border-top: 1px solid var(--color-line);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-12px);
+
+    pointer-events: none;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.4s ease,
+        visibility 0s linear 0.4s;
 }
+
 .mobilePanelOpen {
-    transform: translateY(0);
     opacity: 1;
+    visibility: visible;
+
+    transform: translateY(0);
+
     pointer-events: auto;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.4s ease,
+        visibility 0s;
 }
+
 .mobileNav {
-    padding: 22px var(--page-pad) 44px;
+    width: min(calc(100% - (var(--page-pad) * 2)), var(--max-width));
+
     height: 100%;
-    overflow: auto;
+
+    margin-inline: auto;
+
+    padding-top: 18px;
+    padding-bottom: calc(30px + env(safe-area-inset-bottom));
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    overscroll-behavior: contain;
+
+    -webkit-overflow-scrolling: touch;
 }
+
+.mobileLinks {
+    width: 100%;
+}
+
 .mobileLink {
     display: grid;
-    grid-template-columns: 48px 1fr;
+    grid-template-columns: clamp(36px, 8vw, 56px) 1fr;
     align-items: baseline;
-    padding: 18px 0;
+    width: 100%;
+    padding: clamp(16px, 3vh, 24px) 0;
     border-bottom: 1px solid var(--color-line);
-    font: 500 clamp(28px, 7vw, 48px)/1 var(--font-title);
-    letter-spacing: -0.035em;
+    font-family: var(--font-title);
+    font-size: clamp(28px, 7vw, 52px);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.025em;
     text-transform: uppercase;
-    transform: translateY(10px);
+    transform: translateY(14px);
     opacity: 0;
 }
+
 .mobilePanelOpen .mobileLink {
-    animation: navIn 0.45s both;
-    animation-delay: calc(var(--i) * 50ms);
+    animation: navIn 0.5s both;
+    animation-delay: calc(var(--i) * 55ms);
 }
+
 .mobileLink span {
     color: var(--color-accent-strong);
+    font-family: var(--font-body);
     font-size: 10px;
+    font-weight: 600;
     letter-spacing: 0.12em;
 }
+
 .mobileProposal {
-    margin-top: 24px;
+    margin-top: auto;
+    padding-top: 28px;
+
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 16px;
+
+    width: 100%;
+}
+
+.mobileProposal {
+    padding: 18px 20px;
     background: var(--color-ink);
     color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    font: 600 12px var(--font-title);
-    letter-spacing: 0.1em;
 }
+
+.mobileProposal span {
+    font-size: 20px;
+    transition: transform var(--transition-fast);
+}
+
+.mobileProposal:hover span {
+    transform: translate(3px, -3px);
+}
+
 @keyframes navIn {
     to {
         transform: none;
@@ -174,9 +299,11 @@
     .proposal {
         display: none;
     }
+
     .actions {
         margin-left: auto;
     }
+
     .menuButton {
         display: block;
     }
@@ -185,7 +312,14 @@
     .logo {
         width: 155px;
     }
+
     .language {
         font-size: 10px;
+    }
+
+    .mobileLink {
+        font-size: clamp(27px, 9vw, 40px);
+
+        padding: 17px 0;
     }
 }

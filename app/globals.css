@@ -1,14 +1,15 @@
 :root {
     /* Brand palette — edit these values to reskin the entire site. */
-    --color-bg: #f0ede6;
-    --color-surface: #f8f6f1;
-    --color-surface-strong: #e8e2d8;
+    /* --color-bg: #f0ede6; */
+    --color-bg: #ffffff;
+    --color-surface: #fafafa;
+    --color-surface-strong: #e6e6e6;
     --color-ink: #151515;
     --color-ink-soft: #4f4c47;
     --color-muted: #777269;
     --color-accent: #b69a68;
     --color-accent-strong: #8f7448;
-    --color-line: rgba(21, 21, 21, 0.15);
+    --color-line: rgba(205, 205, 205, 0.43);
     --color-line-strong: rgba(21, 21, 21, 0.28);
     --color-overlay: rgba(10, 10, 10, 0.78);
     --color-white: #fff;
@@ -147,6 +148,10 @@ video {
 }
 .skipLink:focus {
     transform: translateY(0);
+}
+
+body.menu-open {
+    overflow: hidden;
 }
 
 @media (max-width: 760px) {
