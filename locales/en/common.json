@@ -324,7 +324,7 @@
         },
         "submit": "Send",
         "sending": "Sending…",
-        "success": "Thank you. The request passed validation. Connect your delivery service in the API route to send messages.",
+        "success": "Thank you! We received your request!",
         "errors": {
             "name": "Enter a name (at least 2 characters).",
             "email": "Enter a valid email address.",
