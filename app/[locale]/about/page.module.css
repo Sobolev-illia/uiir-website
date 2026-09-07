@@ -123,10 +123,11 @@
     margin: 0 0 24px;
 }
 .darkCopy .lead {
-    font: 400 clamp(24px, 2.5vw, 38px)/1.15 var(--font-title);
+    font: 400 clamp(24px, 2.5vw, 38px)/1.15 var(--font-body);
     letter-spacing: -0.025em;
     color: #fff;
 }
+
 .darkCopy ol {
     margin: 0 0 34px;
     padding: 0;
@@ -192,7 +193,7 @@
     color: var(--color-muted);
 }
 .missionGrid .missionLead {
-    font: 400 clamp(24px, 2.7vw, 42px)/1.12 var(--font-title);
+    font: 400 clamp(24px, 2.7vw, 42px)/1.12 var(--font-body);
     letter-spacing: -0.03em;
     color: var(--color-ink);
 }

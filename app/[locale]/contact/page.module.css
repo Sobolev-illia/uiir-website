@@ -61,6 +61,124 @@
 .formPanel > p:not(.eyebrow) {
     margin: 22px 0 42px;
 }
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.socialLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 14px;
+
+    border: 1px solid var(--color-line-strong);
+
+    color: var(--color-ink);
+    text-decoration: none;
+
+    transition:
+        background var(--transition-fast),
+        color var(--transition-fast),
+        border-color var(--transition-fast),
+        transform var(--transition-fast);
+}
+
+.socialIcon {
+    width: 18px;
+    height: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 auto;
+
+    transition: transform var(--transition-fast);
+}
+
+.socialIcon svg {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    fill: none;
+
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    vector-effect: non-scaling-stroke;
+}
+
+.socialName {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.socialArrow {
+    margin-left: 4px;
+
+    font-size: 15px;
+    line-height: 1;
+
+    transition: transform var(--transition-fast);
+}
+
+.socialLink:hover {
+    background: var(--color-ink);
+    color: var(--color-white);
+    border-color: var(--color-ink);
+
+    transform: translateY(-2px);
+}
+
+.socialLink:hover .socialIcon {
+    transform: translateY(-1px) scale(1.06);
+}
+
+.socialLink:hover .socialArrow {
+    transform: translate(3px, -3px);
+}
+
+.socialLink:focus-visible {
+    outline: 2px solid var(--color-accent-strong);
+    outline-offset: 3px;
+}
+
+.socialBlock {
+    margin-top: 32px;
+}
+
+.socialLabel {
+    margin: 0 0 12px;
+
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: var(--color-muted);
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 @media (max-width: 900px) {
     .inner {
         grid-template-columns: 1fr;
@@ -72,5 +190,20 @@
 @media (max-width: 560px) {
     .formPanel {
         padding: 24px 18px;
+    }
+}
+
+@media (max-width: 520px) {
+    .socials {
+        flex-direction: column;
+    }
+
+    .socialLink {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .socialArrow {
+        margin-left: auto;
     }
 }

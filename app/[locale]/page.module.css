@@ -92,8 +92,8 @@
 .missionInner blockquote {
     margin: 0;
     max-width: 1100px;
-    font: 400 clamp(20px, 4.4vw, 48px)/1.04 var(--font-title);
-    letter-spacing: -0.038em;
+    font: 400 clamp(20px, 4.4vw, 48px)/1.04 var(--font-body);
+    line-height: 1.2;
 }
 .activities,
 .projects {
